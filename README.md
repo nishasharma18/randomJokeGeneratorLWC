@@ -1,7 +1,7 @@
 Generating Random Joke using Apex custom settings and LWC Component
 
-Create custom setting in salesforce with the name: "News API".
+Create custom setting in salesforce with the name: "Joke Api".
 
-After that create two custom fields: Endpoint (URL), Key(Text).
+After that create custom fields: Url (URL).
 
-Endpoint will be: 	https://newsapi.org/v2 and Key: You have to find in the https://newsapi.org/ account.
+Url will be: 	https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single
