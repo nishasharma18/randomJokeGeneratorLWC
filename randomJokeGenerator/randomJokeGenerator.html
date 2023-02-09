@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Generate Random Jokes" icon-name="utility:record_alt">
+        <div class="slds-p-around_large lgc-bg">
+            <div class="elementHoldingHTMLContent">
+                <p>{jokeData}</p>
+                <p style="font-size: 50px;">🙂</p>
+            </div>
+            <lightning-button label="Generate Joke" variant="brand" style="margin-top: 25px;" onclick={handleSubmit}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
